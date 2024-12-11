@@ -125,6 +125,7 @@
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProjectController.cs" />
+    <Compile Include="Controllers\ServiceController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -287,6 +288,7 @@
     <Content Include="Views\AdminLayout\NavbarPartial.cshtml" />
     <Content Include="Views\AdminLayout\ScriptPartial.cshtml" />
     <Content Include="Views\Project\Index.cshtml" />
+    <Content Include="Views\Service\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
