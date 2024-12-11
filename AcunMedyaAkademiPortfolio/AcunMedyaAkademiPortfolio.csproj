@@ -281,6 +281,10 @@
     <Content Include="Template\sidebar-07\scss\bootstrap\_variables.scss" />
     <Content Include="Template\sidebar-07\scss\style.scss" />
     <Content Include="Views\AdminLayout\Index.cshtml" />
+    <Content Include="Views\AdminLayout\HeadPartial.cshtml" />
+    <Content Include="Views\AdminLayout\SidebarPartial.cshtml" />
+    <Content Include="Views\AdminLayout\NavbarPartial.cshtml" />
+    <Content Include="Views\AdminLayout\ScriptPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

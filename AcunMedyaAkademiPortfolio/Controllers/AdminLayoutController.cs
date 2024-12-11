@@ -13,5 +13,21 @@ namespace AcunMedyaAkademiPortfolio.Controllers
         {
             return View();
         }
+        public PartialViewResult HeadPartial()
+        {
+            return PartialView();
+        }
+        public PartialViewResult SidebarPartial()
+        {
+            return PartialView();
+        }
+        public PartialViewResult NavbarPartial()
+        {
+            return PartialView();
+        }
+        public PartialViewResult ScriptPartial()
+        {
+            return PartialView();
+        }
     }
 }
