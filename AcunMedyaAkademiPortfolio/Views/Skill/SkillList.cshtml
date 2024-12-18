@@ -22,10 +22,10 @@
     <td>@item.Value</td>
     <td>@item.LastWeekValue</td>
     <td>@item.LastMonthValue</td>
-    <td><a class="btn btn-warning"> Güncelle</a></td>
-    <td><a class="btn btn-danger"> Sil</a></td>
+    <td><a href="/Skill/UpdateSkill/@item.SkillId" class="btn btn-warning"> Güncelle</a></td>
+    <td><a href="/Skill/DeleteSkill/@item.SkillId" class="btn btn-danger"> Sil</a></td>
 </tr>
     }
 </table>
-<a class="btn btn-success">Yeni yetenek ekle</a>
+<a href="/Skill/CreateSkill" class="btn btn-success">Yeni yetenek ekle</a>
 
