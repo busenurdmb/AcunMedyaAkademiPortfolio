@@ -28,9 +28,9 @@ namespace AcunMedyaAkademiPortfolio.Controllers
             return RedirectToAction("Index");
         }
 
-        public ActionResult DeleteTestimonial(int x)
+        public ActionResult DeleteTestimonial(int id)
         {
-            var value = db.TblTestimonial.Find(x);
+            var value = db.TblTestimonial.Find(id);
             db.TblTestimonial.Remove(value);
             db.SaveChanges();
             return RedirectToAction("Index");
